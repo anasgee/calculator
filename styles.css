@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg,#585858,#122737);
+}
+input{
+    text-align: right;
+    padding: 20px;
+    border: none;
+    background: transparent;
+    border-bottom:2px solid rgba(247, 128, 0, 0.911)  ;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    width: 48.5px;
+    height: 48.5px;
+    margin-top: 15px;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 50%;
+    color: white;
+    box-shadow: -4px -6px 10px -5px #796a55;
+    cursor: pointer;
+}
+.eval{
+    background-color:rgb(153, 75, 24);
+}
+.operator{
+    color: green;
+}
